@@ -22,3 +22,9 @@ Usage
 	-s, --site <site>  only fire requests that are for this domain (ignore everything else)
 	-f, --file <file>  HAR file to replay
 
+
+Running in Docker
+=====
+
+	Build the container: docker build -t har-replay .
+	Run it: docker run -it har-replay node main.js -f <har file>

@@ -12,5 +12,16 @@
   "scripts": {
     "start": "node ./main.js"
   },
-  "engine": "node >= 0.10.0"
+  "engine": "node >= 0.10.0",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknot242/har-replay.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknot242/har-replay/issues"
+  },
+  "homepage": "https://github.com/aknot242/har-replay#readme"
 }
