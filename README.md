@@ -27,4 +27,4 @@ Running in Docker
 =====
 
 	Build the container: docker build -t har-replay .
-	Run it: docker run -it har-replay node main.js -f <har file>
+	Run it: docker run -it har-replay main.js -f <har file>
